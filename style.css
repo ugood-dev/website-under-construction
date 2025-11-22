@@ -20,14 +20,12 @@ body{
     text-align: center;
     margin-top: 4rem;
     margin-bottom: 8rem;
-    text-shadow: 
-    1px 0px 1px #ccc, 0px 1px 1px #eee, 
-    2px 1px 1px #ccc, 1px 2px 1px #eee,
-    3px 2px 1px #ccc, 2px 3px 1px #eee,
-    4px 3px 1px #ccc, 3px 4px 1px #eee,
-    5px 4px 1px #ccc, 4px 5px 1px #eee,
-    6px 5px 1px #ccc, 5px 6px 1px #eee,
-    7px 6px 1px #ccc;
+}
+
+.main-logo{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1.5rem;
 }
 
 .main-title h1{
@@ -39,8 +37,14 @@ body{
 
 .main-title h2{
     font-size: 4rem;
+    font-weight: 700;
+    color: #555;
+}
+
+.main-title h3{
+    font-size: 2.5rem;
     font-weight: 300;
-    text-transform: uppercase;
+    color: #777;
 }
 
 .svg-img{
@@ -121,7 +125,7 @@ svg{
         stroke: #cd61f8;
       }
       25% {
-        stroke: #6ace66;
+        stroke: #17b911;
       }
       75% {
         stroke: #2995c0;
